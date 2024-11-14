@@ -1,0 +1,2 @@
+
+This project currently doesn't utilize Mqtt, but it operates in real-time. I've implemented a JavaScript interval function to achieve real-time updates, which unfortunately consumes a significant amount of allocated memory. I plan to update the project in the future to incorporate Mqtt and leverage Next.js for the frontend. Additionally, I'm considering developing a dashboard to control my IoT project. and there's a problem with CROS, sehingga I should use extension to deactivate a CROS in the browser.
