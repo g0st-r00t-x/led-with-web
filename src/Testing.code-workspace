@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "../../Testing"
+		},
+		{
+			"name": "web-LED",
+			"path": ".."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "web-LED"
+	}
+}

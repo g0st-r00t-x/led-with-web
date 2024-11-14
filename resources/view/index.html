@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LED Control</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>ESP8266 LED Control</h1>
+        
+        <div class="button-container">
+            <button id="toggleBtn" class="button">Toggle LED</button>
+            <button id="speedBtn" class="button">Toggle Speed</button>
+            <button id="alternateBtn" class="button">Toggle Alternate</button>
+            <button id="kamarBtn" class="button">Kamar</button>
+            <button id="kamarMandiBtn" class="button">Kamar Mandi</button>
+            <button id="ruangTamuBtn" class="button">Ruang Tamu</button>
+        </div>
+
+        <div class="status">
+            <p><span class="indicator" id="ledIndicator"></span>LED Status: <span id="ledStatus">Off</span></p>
+            <p><span class="indicator" id="speedIndicator"></span>Speed Mode: <span id="speedStatus">Normal</span></p>
+            <p><span class="indicator" id="alternateIndicator"></span>Alternate Mode: <span id="alternateStatus">Off</span></p>
+            <p><span class="indicator" id="kamarIndicator"></span>Kamar: <span id="kamarStatus">Off</span></p>
+            <p><span class="indicator" id="kamarMandiIndicator"></span>Kamar Mandi: <span id="kamarMandiStatus">Off</span></p>
+            <p><span class="indicator" id="ruangTamuIndicator"></span>Ruang Tamu: <span id="ruangTamuStatus">Off</span></p>
+        </div>
+    </div>
+
+    <script src="../js/script.js"></script>
+</body>
+</html>
